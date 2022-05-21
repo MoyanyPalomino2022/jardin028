@@ -1,0 +1,129 @@
+
+/* MISION , VISION Y UBICANOS*/
+.section{
+    padding-top:7%;
+  }
+
+
+  /* MISION */
+  .section-title-mision{
+    position: relative;
+    font-size: 3.5rem;
+    color: #f44c40;
+    margin-top: 1rem;
+    margin-bottom: 4%;
+    text-align: center;
+    font-weight: bold;
+  }
+  .section-title-mision::after{
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 0.30rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3.5rem;
+    background-color: #f44c40;
+  }
+
+
+/* VISION */
+  .section-title{
+    position: relative;
+    font-size: 3.5rem;
+    color: #FF00D1 ;
+    margin-top: 1rem;
+    margin-bottom: 4%;
+    text-align: center;
+    font-weight: bold;
+  }
+  .section-title::after{
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 0.30rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3.5rem;
+    background-color: #FF00D1 ;
+  }
+
+
+/* UBICANOS7*/
+  .section-title-ubicanos{
+    position: relative;
+    font-size: 3.5rem;
+    color: #3AFF00;
+    margin-top: 1rem;
+    margin-bottom: 4%;
+    text-align: center;
+    font-weight: bold;
+  }
+  .section-title-ubicanos::after{
+    position: absolute;
+    content: "";
+    width: 64px;
+    height: 0.30rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3.5rem;
+    background-color: #3AFF00;
+  }
+
+/*Posición de bloques*/
+  .bd-grid{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .bloque{
+    padding-bottom: 8.5%;
+  }
+  .bloque__img{
+    justify-self: center;
+  }
+  .bloque__img img{
+    width: 200px;
+    border-radius: .5rem;
+    margin-bottom: 5%;
+  }
+  .bloque__text{
+    text-align: justify;
+    font-size: 2rem;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+.correoIEN{
+  font-size: 22px;
+  color: #2d3e6d;
+  text-align: center;
+}
+
+  /* ===== MEDIA QUERIES DE MISION, VISION Y UBICANOS=====*/
+@media screen and (min-width: 768px){
+    .bloque__container{
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+      text-align: initial;
+    }
+    .bloque__img img{
+      width: 300px;
+    }
+  }
+  @media screen and (min-width: 1024px){
+    .bd-grid{
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media screen and (max-width: 700px){
+    .section{
+     padding-top: 25%;
+   }
+  }

@@ -1,0 +1,128 @@
+.conpringaleria .contenedor {
+	width: 90%;
+	margin: auto;
+	padding: 50px 0;
+	padding-left: 5%;
+  padding-top: 7%;
+	padding-right: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.conpringaleria .contenedor h1 {
+	font-size: 30px;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	color: #141414;
+	border: 5px solid #4070F4;
+	padding: 5px 10px;
+	display: inline-block;
+}
+
+
+
+    
+
+.n1 li a.a1{
+    font-size: 25px;
+    background-color: rgb(255, 102, 0);
+}
+
+
+.con1{
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-bottom: 20%;
+}
+
+.con1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+ 
+  .con1 .n1 li{
+    float: left;
+    border-color:rgb(255, 255, 255);
+    border-style: solid;
+  }
+  
+  .con1 .n1 li a{
+    display: block;
+    color: rgb(253, 253, 253); /*color de letra de enlaces*/
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    box-shadow: 0px 5px 0px #e6872f;
+  }
+  
+  .ni li a:hover {
+    background-color: rgb(25, 31, 90); /*cambia de color al pasar el cursor*/
+    border-radius: 50px;
+    box-shadow: 0px 2px 0px #5a4ec5;
+  }
+
+  .n1 li a:active{
+    box-shadow: none;
+  }
+  
+  .con1 ul :hover{
+      background-color: aliceblue;
+  }
+
+  .conpringaleria{
+
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 600px){
+
+.conpringaleria{
+    background-size: 180%; 
+    background-repeat: no-repeat;
+    height: auto;
+}
+  .contenedor{
+    padding-bottom: 2%;
+  }  
+}
+
+@media screen and (max-width: 1000px) {
+  .con1 {
+    margin-left: 10%; 
+}
+}
+
+@media screen and (max-width: 650px) {
+  .con1 {
+    margin-left: 15%; 
+}
+}
+
+  @media screen and (max-width: 600px) {
+    ul.n1 li.right, 
+    ul.n1 li {float: none;}
+
+    .con1 {
+        margin-left: 15%;
+        margin-top: 1%;
+        margin-bottom: 5%;       
+    }
+
+    .n1 li{
+        width: 80%;
+    } 
+
+a.a1{
+    font-size: 25px;
+    font-weight: bold;
+}
+  }
