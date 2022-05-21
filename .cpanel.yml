@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home1/jardins1/public_html/
-    - /bin/cp -R /home1/jardins1/repositories/jardinsantaelena028/ $DEPLOYPATH
